@@ -1,0 +1,74 @@
+<div class="section background">
+  <div class="container p-5">
+    <div class="row ">
+      <div class="col-4 "><img class="opacity-75" src="../assets/left.jpg" alt="leftlogo"></div>
+      <div class="col-4 "><h4 class="name text-center text-light text-sm mt-3">BlueEye</h4></div>
+      <div class="col-4 "><img class="float-end opacity-75 rounded-5" src="../assets/right.jpeg" alt="rightlogo"></div>
+    </div>
+    <div class="row pt-5">
+      <div class="col-md-6 mx-auto">
+        <div class=" card opacity-75 bg-dark rounded-0">
+          <div class="card-body">
+            <form #loginform="ngForm">
+              <div class="d-flex p-2">
+                <div class="form-check ms-3">
+                  <input class="form-check-input" type="radio" name="Ship" id="Ship">
+                  <label class="form-check-label text-light" for="Ship">
+                    Ship
+                  </label>
+                </div>
+                <div class="form-check ms-3">
+                  <input class="form-check-input" type="radio" name="Shore" id="Shore">
+                  <label class="form-check-label text-light" for="Shore">
+                   Shore
+                  </label>
+                </div>
+              </div>
+              <div class="form-group mb-4">
+                <input
+                  type="email"
+                  class="form-control"
+                  id="exampleInputEmail1"
+                  name="email"
+                  ngModel
+                  required
+                  placeholder="UserName"
+                />
+              </div>
+              <div class="form-group mb-2">
+                <input
+                  type="password"
+                  class="form-control"
+                  id="exampleInputPassword1"
+                  name="password"
+                  ngModel
+                  required
+                  placeholder="password"
+                />
+              </div>
+              <div class="d-grid">
+                <div class="row">
+                  <div class="col-6">
+                      <input class="m-2" type="checkbox" name="remember" id="checkbox"><span class="text-light">Remember Me</span>
+                  </div>
+                  <div class="col-6 float-start">
+                    <button class="btn btn-link text-light text-sm-end " type="button">Forgot Password?</button>
+                    <button class="btn btn-link text-light text-sm-end" type="button">Change Passowrd?</button>
+                  </div>
+                </div> 
+              </div>
+              <div class="d-grid">
+                <button class="btn btn-primary" type="button">Sign in</button>
+              </div> 
+              <div class="footer mt-2">
+                <p class="companyname text-center text-light">&#169; 2022 3 fishinfomatics Pvt.Ltd. All rights Reserved</p>
+                <p class="version text-center text-light">V 1.0.0.000</p>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  </div>
+</div>
